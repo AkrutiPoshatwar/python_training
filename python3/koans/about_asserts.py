@@ -26,13 +26,13 @@ class AboutAsserts(Koan):
         """
         Sometimes we will ask you to fill in the values
         """
-        self.assertEqual(__, 1 + 1)
+        self.assertEqual(2 , 1 + 1)
 
     def test_assert_equality(self):
         """
         To understand reality, we must compare our expectations against reality.
         """
-        expected_value = __
+        expected_value = 2
         actual_value = 1 + 1
         self.assertTrue(expected_value == actual_value)
 
@@ -40,7 +40,7 @@ class AboutAsserts(Koan):
         """
         Some ways of asserting equality are better than others.
         """
-        expected_value = __
+        expected_value = 2
         actual_value = 1 + 1
 
         self.assertEqual(expected_value, actual_value)
